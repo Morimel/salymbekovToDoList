@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB0FF74C2B68C9EC00B52CA3 /* LabelsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0FF74B2B68C9EC00B52CA3 /* LabelsModel.swift */; };
 		FB6B8E4B2B676A5B00096FDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6B8E4A2B676A5B00096FDF /* AppDelegate.swift */; };
 		FB6B8E4D2B676A5B00096FDF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6B8E4C2B676A5B00096FDF /* SceneDelegate.swift */; };
 		FB6B8E4F2B676A5B00096FDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6B8E4E2B676A5B00096FDF /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB0FF74B2B68C9EC00B52CA3 /* LabelsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelsModel.swift; sourceTree = "<group>"; };
 		FB6B8E472B676A5B00096FDF /* toDoListSalymbekov.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = toDoListSalymbekov.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB6B8E4A2B676A5B00096FDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB6B8E4C2B676A5B00096FDF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,7 +44,6 @@
 		FB6B8E3E2B676A5A00096FDF = {
 			isa = PBXGroup;
 			children = (
-				FB6B8E602B67EA5B00096FDF /* CasesCollectionViewCell.swift */,
 				FB6B8E492B676A5B00096FDF /* toDoListSalymbekov */,
 				FB6B8E482B676A5B00096FDF /* Products */,
 			);
@@ -63,9 +64,11 @@
 				FB6B8E4C2B676A5B00096FDF /* SceneDelegate.swift */,
 				FB6B8E4E2B676A5B00096FDF /* ViewController.swift */,
 				FB6B8E5E2B6785C100096FDF /* SecondViewController.swift */,
+				FB6B8E602B67EA5B00096FDF /* CasesCollectionViewCell.swift */,
 				FB6B8E532B676A5C00096FDF /* Assets.xcassets */,
 				FB6B8E552B676A5C00096FDF /* LaunchScreen.storyboard */,
 				FB6B8E582B676A5C00096FDF /* Info.plist */,
+				FB0FF74B2B68C9EC00B52CA3 /* LabelsModel.swift */,
 			);
 			path = toDoListSalymbekov;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 				FB6B8E5F2B6785C100096FDF /* SecondViewController.swift in Sources */,
 				FB6B8E4F2B676A5B00096FDF /* ViewController.swift in Sources */,
 				FB6B8E612B67EA5B00096FDF /* CasesCollectionViewCell.swift in Sources */,
+				FB0FF74C2B68C9EC00B52CA3 /* LabelsModel.swift in Sources */,
 				FB6B8E4B2B676A5B00096FDF /* AppDelegate.swift in Sources */,
 				FB6B8E4D2B676A5B00096FDF /* SceneDelegate.swift in Sources */,
 			);
